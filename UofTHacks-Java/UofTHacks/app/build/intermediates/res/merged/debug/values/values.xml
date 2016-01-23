@@ -277,6 +277,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_calendar">Calendar</string>
     <string name="title_activity_clothes">ClothesActivity</string>
+    <string name="title_activity_date">Date</string>
     <string name="title_activity_profile">ProfileActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

@@ -24,17 +24,9 @@ public class ProfileActivity extends AppCompatActivity {
     startActivity(intent);
   }
 
-
-  public void manipulateClothes(View view) {
-    Intent intent = new Intent(this, ClothesActivity.class);
-    startActivity(intent);
-  }
-
   public void showCalendar(View view)
   {
-    //System.out.println("*********************************REACHED AT LEVEL 1**********************");
     Intent i = new Intent(this,Date.class);
-    //System.out.println("********************************MADE NEW INTENT***********************");
     startActivity(i);
   }
 

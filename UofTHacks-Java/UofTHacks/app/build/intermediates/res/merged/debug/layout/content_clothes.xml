@@ -20,7 +20,8 @@
         android:id="@+id/add_clothes"
         android:layout_marginTop="148dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true"
+        android:onClick="startAddingNewClothes"/>
 
     <Button
         android:layout_width="match_parent"

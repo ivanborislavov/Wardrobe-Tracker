@@ -21,14 +21,21 @@ public class ClothesActivity extends AppCompatActivity {
     // Get the intent
     Intent intent = getIntent();
 
-    // testing if our intent gets to here
-    TextView tv = (TextView) findViewById(R.id.testText);
-    tv.setText("ok we are here.");
-
 
   }
 
+  public void startAddingNewClothes(View view) {
+    Intent intent = new Intent(this, NewClothesActivity.class);
+    startActivity(intent);
+  }
 
+  public void startEditingClothes(View view) {
+    // nothing yet
+  }
+
+  public void startViewingClothes(View view) {
+    // nothing yet
+  }
 
 
 

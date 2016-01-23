@@ -14,14 +14,14 @@
     tools:showIn="@layout/activity_profile">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Schedule"
-        android:id="@+id/schedule_button"
-        android:onClick="showCalendar"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"/>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Schedule"
+    android:id="@+id/schedule_button"
+    android:onClick="showCalendar"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="60dp"/>
 
     <Button
         android:layout_width="match_parent"
