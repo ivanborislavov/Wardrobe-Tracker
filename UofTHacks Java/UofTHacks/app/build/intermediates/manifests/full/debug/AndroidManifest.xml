@@ -34,6 +34,11 @@
             android:label="@string/title_activity_clothes"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name="uofthacks.myapplication.Calendar"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
