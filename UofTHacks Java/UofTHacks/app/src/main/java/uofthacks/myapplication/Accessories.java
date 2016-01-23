@@ -1,18 +1,19 @@
+package uofthacks.myapplication;
 
-public class Accessories extends Clothes 
+public class Accessories extends Clothes
 {
 
-	public Accessories(String name) 
+	public Accessories(String name)
 	{
 		super(name);
 	}
-	
-	public Accessories(String name, String description) 
+
+	public Accessories(String name, String description)
 	{
 		super(name, description);
 	}
-	
-	public Accessories(String name, String description, String clothesPic) 
+
+	public Accessories(String name, String description, String clothesPic)
 	{
 		super(name, description, clothesPic);
 	}

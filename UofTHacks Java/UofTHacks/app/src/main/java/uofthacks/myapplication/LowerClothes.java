@@ -1,4 +1,4 @@
-
+package uofthacks.myapplication;
 public class LowerClothes extends Clothes {
 	
 	public LowerClothes(String name)

@@ -1,4 +1,4 @@
-
+package uofthacks.myapplication;
 public class Other extends Clothes {
 
 	public Other(String name, String description) {
