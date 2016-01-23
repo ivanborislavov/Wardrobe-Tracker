@@ -6,18 +6,4 @@
     <string name="title_activity_clothes">ClothesActivity</string>
     <string name="title_activity_calendar">Calendar</string>
     <string name="title_activity_date">Date</string>
-
-
-
-
-
-
-
-
-    <!-- clothing form screen -->
-    <string name="clothing_type_prompt">Select Your Type of Clothing:</string>
-
-
-
-
 </resources>
