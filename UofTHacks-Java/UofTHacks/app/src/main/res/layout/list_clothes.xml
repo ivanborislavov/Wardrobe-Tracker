@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="View Clothes"
+        android:id="@+id/viewClothes"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="create new clothing"
+        android:id="@+id/createNewClothing"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Exiting clothing-->
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Existing Clothes"
+        android:id="@+id/button"
+        android:layout_above="@+id/createNewClothing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"/>
+
+    <!-- new clothing-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create new clothing"
+        android:id="@+id/button2"
+        android:layout_below="@+id/createNewClothing"
+        android:layout_alignRight="@+id/button"
+        android:layout_marginTop="31dp"/>
+
+</RelativeLayout>
