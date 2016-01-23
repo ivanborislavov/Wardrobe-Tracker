@@ -5,4 +5,5 @@
     <string name="title_activity_profile">ProfileActivity</string>
     <string name="title_activity_clothes">ClothesActivity</string>
     <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_date">Date</string>
 </resources>

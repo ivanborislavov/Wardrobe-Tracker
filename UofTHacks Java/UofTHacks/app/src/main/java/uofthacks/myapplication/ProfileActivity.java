@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -28,4 +29,13 @@ public class ProfileActivity extends AppCompatActivity {
     Intent intent = new Intent(this, ClothesActivity.class);
     startActivity(intent);
   }
+
+  public void showCalendar(View view)
+  {
+    //System.out.println("*********************************REACHED AT LEVEL 1**********************");
+    Intent i = new Intent(this,Date.class);
+    //System.out.println("********************************MADE NEW INTENT***********************");
+    startActivity(i);
+  }
+
 }
