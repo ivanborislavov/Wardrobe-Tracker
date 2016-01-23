@@ -22,4 +22,10 @@ public class ProfileActivity extends AppCompatActivity {
     Intent intent = new Intent(this, ClothesActivity.class);
     startActivity(intent);
   }
+
+
+  public void manipulateClothes(View view) {
+    Intent intent = new Intent(this, ClothesActivity.class);
+    startActivity(intent);
+  }
 }
