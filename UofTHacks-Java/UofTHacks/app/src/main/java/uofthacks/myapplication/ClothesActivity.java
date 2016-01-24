@@ -17,15 +17,10 @@ public class ClothesActivity extends AppCompatActivity {
     setContentView(R.layout.activity_clothes);
     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
     setSupportActionBar(toolbar);
-
-    // Get the intent
-    Intent intent = getIntent();
-
-
   }
 
   public void startAddingNewClothes(View view) {
-    Intent intent = new Intent(this, NewClothesActivity.class);
+    Intent intent = new Intent(this, StartCreateNewClothesActivity.class);
     startActivity(intent);
   }
 

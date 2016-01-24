@@ -17,5 +17,4 @@ public class Accessories extends Clothes
 	{
 		super(name, description, clothesPic);
 	}
-
 }

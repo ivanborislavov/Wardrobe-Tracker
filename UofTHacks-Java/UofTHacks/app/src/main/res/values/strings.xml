@@ -6,4 +6,22 @@
     <string name="title_activity_clothes">ClothesActivity</string>
     <string name="title_activity_calendar">Calendar</string>
     <string name="title_activity_date">Date</string>
+
+
+
+    <!-- Picking clothes type -->
+    <string name="pick_type">Pick a Type of Clothing</string>
+    <string-array name="clothes_type_array">
+        <item>Accessories</item>
+        <item>Pants</item>
+        <item>Shirts</item>
+        <item>Shoes</item>
+        <item>Shorts</item>
+        <item>Skirts</item>
+    </string-array>
+
+    <string name="default_select_type">Please Select a Type</string>
+    
+    
+
 </resources>
