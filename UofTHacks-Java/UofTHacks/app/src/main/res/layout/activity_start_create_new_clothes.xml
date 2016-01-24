@@ -38,6 +38,6 @@
         android:id="@+id/next_button"
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
-        android:onClick="startCreatingObject"/>
+        android:onClick="startCreatingClothesObject"/>
 
 </RelativeLayout>

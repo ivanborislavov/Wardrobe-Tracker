@@ -56,7 +56,7 @@ public class EnterClothingFieldActivity extends AppCompatActivity {
         String type = enterTextField[3].getText().toString();
 
         // brand and type is required for all of them
-        // Must be accessories if colour and size are ""
+        // Must be accessories if colour and size and empty
         if (brand.equals(null) || brand.equals("")) {
             enterTextField[0].setError("Brand cannot be empty");
             return;

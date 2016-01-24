@@ -29,7 +29,6 @@ public class ClothesActivity extends AppCompatActivity {
   }
 
   public void startViewingClothes(View view) {
-    Intent intent = new Intent(this, EditClothesResult.class);
-    startActivity(intent);
+    // nothing yet
   }
 }
