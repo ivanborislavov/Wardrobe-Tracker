@@ -11,9 +11,10 @@
     <!-- Picking clothes type -->
     <string name="pick_type">Pick a Type of Clothing</string>
     <string-array name="clothes_type_array">
+        <item>UpperClothes</item>
+        <item>LowerClothes</item>
+        <item>Shoes</item>
         <item>Accessories</item>
-        <item>Upper-Body Clothing</item>
-        <item>Lower-Body Clothing</item>
     </string-array>
 
     <string name="default_select_type">Please Select a Type</string>
