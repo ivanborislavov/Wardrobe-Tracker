@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/search_msg"
+            android:text="@string/fieldPrompt"
             android:id="@+id/textView2"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"/>
@@ -48,7 +48,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/brandField"
+                android:id="@+id/editText1"
                 android:layout_weight="0.53"
                 android:layout_alignParentRight="true"/>
         </LinearLayout>
@@ -70,7 +70,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/colourField"
+                android:id="@+id/editText2"
                 android:layout_weight="0.53"
                 android:layout_alignParentRight="true"/>
         </LinearLayout>
@@ -92,41 +92,19 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/sizeField"
-                android:layout_weight="0.53"
-                android:layout_alignParentRight="true"/>
-        </LinearLayout>
-
-        <!-- size -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="1">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/type"
-                android:id="@+id/type"
-                android:layout_gravity="left"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/typeField"
+                android:id="@+id/editText3"
                 android:layout_weight="0.53"
                 android:layout_alignParentRight="true"/>
         </LinearLayout>
 
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/proceed"
-            android:id="@+id/button"
-            android:layout_gravity="right"
-            android:onClick="proceedToSpecificFields"/>
+
+
+
+
+
+
+
     </LinearLayout>
 
 </RelativeLayout>
