@@ -15,6 +15,8 @@ public class EnterClothingFieldActivity extends AppCompatActivity {
     private String[] parameters;
     private EditText[] enterTextField;
     private HashMap<String, String> curr_map;
+    private boolean isAccessories = false;
+
 
     @Override
     @SuppressWarnings("unchecked")
@@ -41,6 +43,8 @@ public class EnterClothingFieldActivity extends AppCompatActivity {
             enterTextField[2] = (EditText) findViewById(R.id.colourField);
             enterTextField[2].setFocusable(false);
             enterTextField[2].setText("");
+
+            isAccessories = true;
         }
     }
 
@@ -55,14 +59,25 @@ public class EnterClothingFieldActivity extends AppCompatActivity {
         String colour = enterTextField[2].getText().toString();
         String type = enterTextField[3].getText().toString();
 
+
         // brand and type is required for all of them
-        // Must be accessories if colour and size and empty
         if (brand.equals(null) || brand.equals("")) {
             enterTextField[0].setError("Brand cannot be empty");
             return;
         } else if (type.equals(null) || type.equals("")) {
-            enterTextField[0].setError("Type cannot be empty");
+            enterTextField[3].setError("Type cannot be empty");
             return;
+        }
+
+        // not accessories; need to check for size & colour
+        if (!isAccessories) {
+            if (size.equals(null) || size.equals("")) {
+                enterTextField[1].setError("Size cannot be empty");
+                return;
+            } else if (colour.equals(null) || colour.equals("")) {
+                enterTextField[2].setError("Colour cannot be empty");
+                return;
+            }
         }
 
         // add to hashmap
@@ -70,8 +85,6 @@ public class EnterClothingFieldActivity extends AppCompatActivity {
         curr_map.put("size", size);
         curr_map.put("colour", colour);
         curr_map.put("type", type);
-
-
     }
 
 }
