@@ -64,7 +64,8 @@ public class EnterClothingFieldActivity extends AppCompatActivity {
         if (brand.equals(null) || brand.equals("")) {
             enterTextField[0].setError("Brand cannot be empty");
             return;
-        } else if (type.equals(null) || type.equals("")) {
+        }
+        if (type.equals(null) || type.equals("")) {
             enterTextField[3].setError("Type cannot be empty");
             return;
         }
@@ -74,7 +75,8 @@ public class EnterClothingFieldActivity extends AppCompatActivity {
             if (size.equals(null) || size.equals("")) {
                 enterTextField[1].setError("Size cannot be empty");
                 return;
-            } else if (colour.equals(null) || colour.equals("")) {
+            }
+            if (colour.equals(null) || colour.equals("")) {
                 enterTextField[2].setError("Colour cannot be empty");
                 return;
             }
