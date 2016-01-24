@@ -34,17 +34,11 @@ public class StartCreateNewClothesActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String type_selected = parent.getItemAtPosition(position).toString();
                 TextView tv = (TextView) findViewById(R.id.testField);
-                Intent intent = new Intent(this, .class);
-                intent.putExtra("type", type_selected);
-                startActivity(intent);
-
-
-
-
-
-
-
-
+                tv.setText(type_selected);
+//
+// Intent intent = new Intent(this, .class);
+//                intent.putExtra("type", type_selected);
+//                startActivity(intent);
             }
 
             public void onNothingSelected(AdapterView<?> adapterView) {

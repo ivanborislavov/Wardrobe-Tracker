@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:2:11-44
 		INJECTED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/sr
 		INJECTED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:5:5-41:19
+ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:5:5-45:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:23.1.1] /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:22:5-20
@@ -82,6 +82,14 @@ ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/sr
 		ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:39:13-56
 	android:name
 		ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:37:13-33
+activity#uofthacks.myapplication.NewClothesActivity
+ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:41:9-42:20
+	android:name
+		ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:41:19-53
+activity#uofthacks.myapplication.StartCreateNewClothesActivity
+ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:43:9-44:20
+	android:name
+		ADDED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml:43:19-64
 uses-sdk
 INJECTED from /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/franktheswag/Desktop/uofthacks/UofTHacks-Java/UofTHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43

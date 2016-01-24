@@ -6,7 +6,7 @@ package uofthacks.myapplication; /**
  * @author Harshil, Frank
  *
  */
-public abstract class Clothes {
+public class Clothes {
 
 //	String name = "";
 //	String description = "";
@@ -75,9 +75,9 @@ public abstract class Clothes {
 
 	public String getSize() {return size;}
 
-	public String setBrand(String newBrand) {this.brand = newBrand;}
+	public void setBrand(String newBrand) {this.brand = newBrand;}
 
-	public String setColour(String newColour) {this.colour = newColour;}
+	public void setColour(String newColour) {this.colour = newColour;}
 
-	public String setSize(String newSize) {this.size = newSize;}
+	public void setSize(String newSize) {this.size = newSize;}
 }

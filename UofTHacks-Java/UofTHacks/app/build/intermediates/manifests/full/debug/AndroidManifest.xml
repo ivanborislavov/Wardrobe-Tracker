@@ -44,6 +44,10 @@
             android:label="@string/title_activity_date"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity android:name="uofthacks.myapplication.NewClothesActivity" >
+        </activity>
+        <activity android:name="uofthacks.myapplication.StartCreateNewClothesActivity" >
+        </activity>
     </application>
 
 </manifest>

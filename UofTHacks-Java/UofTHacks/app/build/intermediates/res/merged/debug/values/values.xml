@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="clothes_type_array">
+        <item>Accessories</item>
+        <item>Pants</item>
+        <item>Shirts</item>
+        <item>Shoes</item>
+        <item>Shorts</item>
+        <item>Skirts</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -274,6 +282,8 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="choose_profile">Choose your profile.</string>
+    <string name="default_select_type">Please Select a Type</string>
+    <string name="pick_type">Pick a Type of Clothing</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_calendar">Calendar</string>
     <string name="title_activity_clothes">ClothesActivity</string>

@@ -40,6 +40,8 @@
         </activity>
         <activity android:name=".NewClothesActivity">
         </activity>
+        <activity android:name=".StartCreateNewClothesActivity">
+        </activity>
     </application>
 
 </manifest>
