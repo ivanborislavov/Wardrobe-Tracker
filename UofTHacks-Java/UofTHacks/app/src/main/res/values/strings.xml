@@ -28,5 +28,7 @@
     <string name="brand">Brand</string>
     <string name="colour">Colour</string>
     <string name="size">Size</string>
-
+    <string name="type">Type</string>
+    <string name="title_activity_edit_clothes_result">EditClothesResult</string>
+    <string name="search_msg">Search for your clothing by providing the fields.</string>
 </resources>

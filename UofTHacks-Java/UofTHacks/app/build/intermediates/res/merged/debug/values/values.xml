@@ -2,11 +2,8 @@
 <resources>
     <string-array name="clothes_type_array">
         <item>Accessories</item>
-        <item>Pants</item>
-        <item>Shirts</item>
-        <item>Shoes</item>
-        <item>Shorts</item>
-        <item>Skirts</item>
+        <item>Upper-Body Clothing</item>
+        <item>Lower-Body Clothing</item>
     </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -280,14 +277,21 @@
     <string name="action_settings">Settings</string>
     <string name="app_name">My Application</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="brand">Brand</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="choose_profile">Choose your profile.</string>
+    <string name="colour">Colour</string>
     <string name="default_select_type">Please Select a Type</string>
+    <string name="fieldPrompt">WE WANT TO KNOW ABOUT YOUR ITEMS!</string>
     <string name="pick_type">Pick a Type of Clothing</string>
+    <string name="proceed">Next</string>
+    <string name="search_msg">Search for your clothing by providing brand, color and size.</string>
+    <string name="size">Size</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_calendar">Calendar</string>
     <string name="title_activity_clothes">ClothesActivity</string>
     <string name="title_activity_date">Date</string>
+    <string name="title_activity_edit_clothes_result">EditClothesResult</string>
     <string name="title_activity_profile">ProfileActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
