@@ -31,12 +31,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"/>
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/testField"
-        android:layout_below="@+id/clothing_spinner"
-        android:layout_centerHorizontal="true"/>
+        android:text="@string/proceed"
+        android:id="@+id/next_button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="startCreatingClothesObject"/>
+
 </RelativeLayout>

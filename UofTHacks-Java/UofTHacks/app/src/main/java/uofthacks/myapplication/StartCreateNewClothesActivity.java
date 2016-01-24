@@ -11,7 +11,16 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class StartCreateNewClothesActivity extends AppCompatActivity {
+
+    private String type_selected;
+        private HashMap<String, String> nameValuePair;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,18 +41,23 @@ public class StartCreateNewClothesActivity extends AppCompatActivity {
         // ok could this be why???
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String type_selected = parent.getItemAtPosition(position).toString();
-                TextView tv = (TextView) findViewById(R.id.testField);
-                tv.setText(type_selected);
-//
-// Intent intent = new Intent(this, .class);
-//                intent.putExtra("type", type_selected);
-//                startActivity(intent);
+                type_selected = parent.getItemAtPosition(position).toString();
             }
 
             public void onNothingSelected(AdapterView<?> adapterView) {
                 return;
             }
         });
+    }
+
+    public void startCreatingClothesObject(View view) {
+        // start creating the object
+        Intent intent = new Intent(this, EnterClothingFieldActivity.class);
+
+        nameValuePair = new HashMap<String, String>();
+        nameValuePair.put("Class", type_selected);
+
+        intent.putExtra("HashMap-Fields", nameValuePair);
+        startActivity(intent);
     }
 }

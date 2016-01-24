@@ -31,8 +31,4 @@ public class ClothesActivity extends AppCompatActivity {
   public void startViewingClothes(View view) {
     // nothing yet
   }
-
-
-
-
 }

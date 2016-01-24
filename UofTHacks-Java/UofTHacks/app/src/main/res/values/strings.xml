@@ -8,20 +8,25 @@
     <string name="title_activity_date">Date</string>
 
 
-
     <!-- Picking clothes type -->
     <string name="pick_type">Pick a Type of Clothing</string>
     <string-array name="clothes_type_array">
         <item>Accessories</item>
-        <item>Pants</item>
-        <item>Shirts</item>
-        <item>Shoes</item>
-        <item>Shorts</item>
-        <item>Skirts</item>
+        <item>Upper-Body Clothing</item>
+        <item>Lower-Body Clothing</item>
     </string-array>
 
     <string name="default_select_type">Please Select a Type</string>
-    
-    
+
+
+    <!-- Proceed-->
+    <string name="proceed">Next</string>
+
+
+    <!-- Types of fields -->
+    <string name="fieldPrompt">WE WANT TO KNOW ABOUT YOUR ITEMS!</string>
+    <string name="brand">Brand</string>
+    <string name="colour">Colour</string>
+    <string name="size">Size</string>
 
 </resources>
